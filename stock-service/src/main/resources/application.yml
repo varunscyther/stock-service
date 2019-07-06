@@ -1,0 +1,13 @@
+spring:
+  application:
+    name : stock-service
+
+server:
+  port: 9101
+
+eureka:
+  client:
+    registerWithEureka : true
+    fetchRegistry: true
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
